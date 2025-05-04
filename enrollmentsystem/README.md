@@ -1,14 +1,3 @@
-This program manages student records using C++ classes and STL. It reads student names, registration numbers, and a variable number of grades from input. The program calculates the average, highest, and lowest grade for each student and prints a report sorted alphabetically by name.
+This project is a simple student management system developed in C++ for handling basic academic records. The program supports operations such as: Registering students with their names, registration numbers, and an arbitrary number of grades. Calculating the average, maximum, and minimum grade for each student. Sorting and displaying all students in alphabetical order.
 
-Features:
-Uses std::vector for dynamic grade storage
-Calculates average, max, and min grades
-Outputs student data in alphabetical order using std::sort
-
-Input format:
-One student per set  (
-Name
-Registration number
-Grades separated by space, ending with -1
-)
-Use "END" as the name to stop input
+The system reads input via standard input, allowing flexible data entry where each student is defined by a name, a registration number, and a list of integer grades ending with -1. Input ends when the name "END" is entered. It is structured using C++ classes with separation of concerns, utilizing STL containers like vector and algorithms such as sort for efficient data processing.
